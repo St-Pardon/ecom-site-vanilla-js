@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rosie's Assesories</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="./lightslider.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./lightslider.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="social-call">
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="phone">
+          <span>Call +234 812 283 3283</span>
+        </div>
+      </div>
+      <div class="navigation">
+        <a href="#" class="logo">
+          <img src="./images/logo.png" alt="Rosies Logo" />
+        </a>
+        <div class="toggle"></div>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">Men</a>
+            <span class="sale-label">sale</span>
+          </li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Kids</a></li>
+        </ul>
+        <div class="right-menu">
+          <a href="#" class="search">
+            <i class="fas fa-search"></i>
+          </a>
+          <a href="#" class="user">
+            <i class="far fa-user"></i>
+          </a>
+          <a href="#">
+            <i class="fas fa-shopping-cart">
+              <span class="num-cart-product">0</span>
+            </i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="search-bar">
+      <div class="search-input">
+        <input type="search" placeholder="Search For Product" />
+      </div>
+    </div>
+    <section class="form">
+      <div class="login-form">
+        <a href="#" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>Log In</strong>
+        <form>
+          <input
+            type="email"
+            name="email"
+            id="login-email"
+            placeholder="Someone@example.com"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="login-password"
+            placeholder="Password"
+            required
+          />
+          <input type="submit" value="Log In" />
+        </form>
+        <div class="form-btns">
+          <a href="#" class="forget">Forget Your Password?</a>
+          <a href="#" class="signup-btn">Create Account</a>
+        </div>
+      </div>
+      <div class="signup-form">
+        <a href="#" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>Sign Up</strong>
+        <form>
+          <input
+            type="text"
+            name="fName"
+            id="f-name"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="email"
+            name="femail"
+            id="signup-email"
+            placeholder="Someone@example.com"
+            required
+          />
+          <input
+            type="password"
+            name="fpassword"
+            id="signup-password"
+            placeholder="Password"
+            required
+          />
+          <input type="submit" value="Sign upLog In" />
+        </form>
+        <div class="form-btns">
+          <a href="#" class="have-account">Already Have an Account?</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <ul id="adaptive" class="cs-hidden">
+        <li class="item-a">
+          <div class="full-slider-box f-slider-1">
+            <div class="slider-text-container">
+              <div class="f-slider-text">
+                <span>Limited offer</span>
+                <strong>30% off <br />with <font>promo code</font></strong>
+                <a href="#" class="f-slider-btn">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item-b">
+          <div class="full-slider-box f-slider-2">
+            <div class="slider-text-container">
+              <div class="f-slider-text">
+                <span>Limited offer</span>
+                <strong>30% off <br />with <font>promo code</font></strong>
+                <a href="#" class="f-slider-btn">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item-c">
+          <div class="full-slider-box f-slider-3">
+            <div class="slider-text-container">
+              <div class="f-slider-text">
+                <span>Limited offer</span>
+                <strong>30% off <br />with <font>promo code</font></strong>
+                <a href="#" class="f-slider-btn">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="item-d">
+          <div class="full-slider-box f-slider-4">
+            <div class="slider-text-container">
+              <div class="f-slider-text">
+                <span>Limited offer</span>
+                <strong>30% off <br />with <font>promo code</font></strong>
+                <a href="#" class="f-slider-btn">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <div class="feature-heading">
+        <h2>Feature Categories</h2>
+      </div>
+      <ul id="autoWidth" class="cs-hidden">
+        <li class="item">
+          <div class="feature-box">
+            <a href="#">
+              <img src="./images/feature1.jpg" alt="glass" />
+            </a>
+          </div>
+          <span>Uculele</span>
+        </li>
+        <li class="item">
+          <div class="feature-box">
+            <a href="#">
+              <img src="./images/feature2.jpg" alt="glass" />
+            </a>
+          </div>
+          <span>Crystal Frame</span>
+        </li>
+        <li class="item">
+          <div class="feature-box">
+            <a href="#">
+              <img src="./images/feature3.jpg" alt="glass" />
+            </a>
+          </div>
+          <span>Glasses</span>
+        </li>
+        <li class="item">
+          <div class="feature-box">
+            <a href="#">
+              <img src="./images/feature4.jpg" alt="Girly" />
+            </a>
+          </div>
+          <span>Girly</span>
+        </li>
+        <li class="item">
+          <div class="feature-box">
+            <a href="#">
+              <img src="./images/feature8.jpg" alt="Blue Blur" />
+            </a>
+          </div>
+          <span>Blue Blur</span>
+        </li>
+        <li class="item">
+          <div class="feature-box">
+            <a href="#">
+              <img src="./images/feature9.jpg" alt="Anti Bluelight" />
+            </a>
+          </div>
+          <span>Anti Bluelight</span>
+        </li>
+        <li class="item">
+          <div class="feature-box">
+            <a href="#">
+              <img src="./images/feature10.jpg" alt="Cooperate Glasses" />
+            </a>
+          </div>
+          <span>Cooperate Glasses</span>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <div class="new-arrival">
+        <div class="arrival-heading">
+          <strong>New Arrival</strong>
+          <p>Explore Our latest Designs in Stock</p>
+        </div>
+        <div class="product-container">
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/feature6.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/feature7.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product1.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product2.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/feature5.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product3.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product4.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product5.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product6.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product7.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product8.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product9.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product10.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product11.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product12.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sale">
+      <div class="sale-box">
+        <img src="./images/product13.jpg" alt="">
+        <a href="#">
+          <div class="sale-text">
+            <strong>Blue Light Protective Glass</strong>
+            <span>sale off 25%</span>
+          </div>
+        </a>
+      </div>
+      <div class="sale-box">
+        <img src="./images/product14.jpg" alt="">
+        <a href="#">
+          <div class="sale-text">
+            <strong>Silver Frame Glass</strong>
+            <span>sale off 25%</span>
+          </div>
+        </a>
+      </div>
+      <div class="sale-box">
+        <img src="./images/product15.jpg" alt="">
+        <a href="#">
+          <div class="sale-text">
+            <strong>Pink Rosselet Glass</strong>
+            <span>sale off 25%</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section>
+      <div class="new-arrival">
+        <div class="arrival-heading">
+          <strong>Feature Items</strong>
+          <p>Explore Our latest Designs in Stock</p>
+        </div>
+        <div class="product-container">
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/feature6.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/feature7.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product1.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-img">
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <img src="./images/product8.jpg" alt="glass">
+            </div>
+            <div class="product-details">
+              <a href="#" class="p-name">Glasses</a>
+              <span class="p-price">₦3,500.00</span>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </section>
+    <section>
+      <div class="banner-box f-slider-1">
+        <div class="banner-text-container">
+          <div class="banner-text">
+            <span>Limited offer</span>
+            <strong>30% off <br />with <font>promo code</font></strong>
+            <a href="#" class="banner-btn">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="services-box">
+        <i class="fas fa-shipping-fast"></i>
+        <span>Free Shipping</span>
+        <p>Free Shipping For all NG orders</p>
+      </div>
+      <div class="services-box">
+        <i class="fas fa-headphones-alt"></i>
+        <span>Support 24/7</span>
+        <p>We Support 24hr a day</p>
+      </div>
+      <div class="services-box">
+        <i class="fas fa-sync"></i>
+        <span>100% Money Back</span>
+        <p>You have 30 days to Return</p>
+      </div>
+    </section>
+    <footer>
+      <span class="copyright">
+        St. Pardon &copy; 2022
+      </span>
+      <div class="subscribe">
+        <form>
+          <input type="email" name="semail" id="sub-email" placeholder="Someone@example.com">
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      // handle search...
+      $(document).on("click", ".search", function () {
+        $(".search-bar").toggleClass("search-bar-active");
+      });
+      
+      // handle login and signup....
+      $(document).on("click", ".user", function () {
+        $(".form").addClass("login-active");
+      });
+      $(document).on("click", ".signup-btn", function () {
+        $(".form").addClass("signup-active").removeClass("login-active");
+      });
+      $(document).on("click", ".have-account", function () {
+        $(".form").addClass("login-active").removeClass("signup-active");
+      });
+      $(document).on("click", ".form-cancel", function () {
+        $(".form").removeClass("login-active").removeClass("signup-active");
+      });
+
+      // slider functions.....
+      $(document).ready(function () {
+        $("#adaptive").lightSlider({
+          adaptiveHeight: true,
+          auto: true,
+          item: 1,
+          slideMargin: 0,
+          loop: true,
+        });
+      });
+      $(document).ready(function () {
+        $("#autoWidth").lightSlider({
+          autoWidth: true,
+          loop: true,
+          onSliderLoad: function () {
+            $("#autoWidth").removeClass("cS-hidden");
+          },
+        });
+      });
+      $(window).scroll(function(){
+        if ($(document).scrollTop() > 50){
+          $('.navigation').addClass('fix-nav');
+        } else{
+          $('.navigation').removeClass('fix-nav');
+        }
+      })
+      $(document).ready(function(){
+        $('.toggle').click(function(){
+          $('.toggle').toggleClass('active')
+          $('.navigation').toggleClass('active')
+        })
+      })
+    </script>
+  </body>
+</html>
