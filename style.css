@@ -309,6 +309,14 @@ nav{
     color: #fcfaa4;
     font-size: 1.2rem;
 }
+.item-c .f-slider-text span, .item-c .banner-text span,
+.item-d .f-slider-text span, .item-d .banner-text span{
+    color: #ff62aa;
+}
+.item-c .f-slider-text strong, .item-c .banner-text strong,
+.item-d .f-slider-text strong, .item-d .banner-text strong{
+    color: #ed1289;
+}
 .f-slider-text strong, .banner-text strong{
     color: #f4f4f4;
     font-size: 3rem;
